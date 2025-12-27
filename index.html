@@ -1,90 +1,103 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Affordable Landscaping and Mowing Services</title>
-  <meta name="description" content="Local, reliable, and affordable lawn care — mowing, edging, bed maintenance, hedge care, aeration, and seasonal cleanups." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Affordable landscaping and lawn mowing services. Reliable, local, and professional garden care.">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Local Business Schema -->
   <script type="application/ld+json">
- .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-
-.gallery img {
-  width: 100%;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-.caption {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
-    {
-    "@context":"https://schema.org",
-    "@type":"LocalBusiness",
-    "name":"Affordable Landscaping and Mowing Services",
-    "telephone":"+1-555-555-0123",
-    "email":"info@example.com",
-    "address":{"@type":"PostalAddress","addressLocality":"Your Town","addressRegion":"State"},
-    "openingHours":"Mo-Su 08:00-18:00",
-    "areaServed":"Your City and surrounding areas"
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Affordable Landscaping and Mowing Services",
+    "telephone": "+61-420-249-700",
+    "email": "john.ghaly82@gmail.com",
+    "openingHours": "Mo-Su 08:00-18:00",
+    "areaServed": "Local area"
   }
   </script>
-<header>
-  <img src="logo.png" alt="Affordable Landscaping and Mowing Services" style="max-width:120px;">
-  <h1>Affordable Landscaping and Mowing Services</h1>
-  <p>Reliable • Affordable • Local</p>
-</header>
-
+</head>
 
 <body>
+
+  <!-- Header -->
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#hero">
-        <!-- replace logo.png in assets with your logo -->
-        <img src="assets/logo.png" alt="Affordable Landscaping and Mowing Services logo" width="56" height="56" onerror="this.style.display='none'"/>
-        <span>Affordable Landscaping & Mowing</span>
-      </a>
-
-      <nav class="nav" id="primary-nav">
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact" class="btn btn-sm">Get a Free Quote</a>
-      </nav>
-
-      <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</button>
-    </div>
+    <img src="logo.png" alt="Affordable Landscaping and Mowing Services" style="max-width:120px;">
+    <h1>Affordable Landscaping and Mowing Services</h1>
+    <p>Reliable • Affordable • Local</p>
   </header>
 
-  <main>
-    <section id="hero" class="hero">
-     <div class="cta">
-  <h2>Get a Free Quote</h2>
+  <!-- Hero / Contact -->
+  <section class="hero">
+    <div class="cta">
+      <h2>Get a Free Quote</h2>
 
-  <p>
-    <strong>Phone:</strong>
-    <a href="tel:0420249700">0420249700</a>
-  </p>
+      <p>
+        <strong>Phone:</strong>
+        <a href="tel:0420249700">0420 249 700</a>
+      </p>
 
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:john.ghaly82@gmail.com">john.ghaly82@gmail.com</a>
-  </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:john.ghaly82@gmail.com">john.ghaly82@gmail.com</a>
+      </p>
 
-  <a href="tel:0420249700">Call Now</a>
-</div>
+      <a href="tel:0420249700">Call Now</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Lawn mowing & edging</li>
+      <li>Garden clean-ups</li>
+      <li>Hedge trimming</li>
+      <li>Weeding & green waste removal</li>
+      <li>General landscaping maintenance</li>
+    </ul>
+  </section>
+
+  <!-- Before & After Gallery -->
+  <section class="container">
+    <h2>Before & After Work</h2>
+    <p>Some examples of our recent landscaping and mowing projects.</p>
+
+    <div class="gallery">
+      <div>
+        <img src="before1.jpg" alt="Before lawn mowing">
+        <div class="caption">Before</div>
+      </div>
+
+      <div>
+        <img src="after1.jpg" alt="After lawn mowing">
+        <div class="caption">After</div>
+      </div>
+
+      <div>
+        <img src="before2.jpg" alt="Before garden cleanup">
+        <div class="caption">Before</div>
+      </div>
+
+      <div>
+        <img src="after2.jpg" alt="After garden cleanup">
+        <div class="caption">After</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2026 Affordable Landscaping and Mowing Services</p>
+  </footer>
+
+</body>
+</html>
